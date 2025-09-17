@@ -9,7 +9,7 @@ import PortfolioLayout from '@/components/PortfolioLayout'
 const userData = {
   "userInfo": {
     "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
-    "full_name": "Jane Doe",
+    "full_name": "dwqdwdwJane Doe",
     "title": "Software Engineer",
     "email": "jane.doe@email.com",
     "about_me": "Software Engineer at TechWave Solutions specializing in scalable web applications, cloud platforms, and Agile methodologies. Passionate about building user-friendly solutions and continuously learning emerging technologies such as artificial intelligence, machine learning, and cloud-native applications. Experienced in Java, Python, JavaScript, and cloud DevOps tools.",
@@ -40,7 +40,7 @@ const userData = {
       "university": "University of California, Berkeley",
       "start_year": "2015",
       "end_year": "2019",
-      "description": "Relevant Coursework:\nData Structures, Algorithms, Operating Systems, Databases, Machine Learning, Software Engineering.",
+      "description": "Relevant Coursework:\r\nData Structures, Algorithms, Operating Systems, Databases, Machine Learning, Software Engineering.",
       "logoUrl": null,
       "order_index": 0,
       "custom_links": [],
@@ -56,7 +56,7 @@ const userData = {
       "position": "Software Engineer",
       "start_date": "Jan 2021",
       "end_date": "Present",
-      "description": "- Designed and developed scalable microservices in Java and Node.js, reducing system downtime by 30%.\n- Implemented CI/CD pipelines with GitHub Actions and Docker, improving deployment speed by 40%.\n- Optimized database queries in PostgreSQL, cutting average response time by 25%.\n- Collaborated with a team of 8 engineers using Agile, consistently delivering features within sprint deadlines.\n- Mentored junior developers, leading to faster onboarding and reduced code review issues.",
+      "description": "- Designed and developed scalable microservices in Java and Node.js, reducing system downtime by 30%.\r\n- Implemented CI/CD pipelines with GitHub Actions and Docker, improving deployment speed by 40%.\r\n- Optimized database queries in PostgreSQL, cutting average response time by 25%.\r\n- Collaborated with a team of 8 engineers using Agile, consistently delivering features within sprint deadlines.\r\n- Mentored junior developers, leading to faster onboarding and reduced code review issues.",
       "logoUrl": null,
       "order_index": 0,
       "custom_links": [],
@@ -70,7 +70,7 @@ const userData = {
       "position": "Junior Software Engineer",
       "start_date": "Jun 2019",
       "end_date": "Dec 2020",
-      "description": "- Built front-end features with React and integrated REST APIs for an e-commerce platform serving 50k+ users.\n- Wrote unit and integration tests, increasing code coverage from 60% to 85%.\n- Supported migration of legacy PHP application to Node.js, improving maintainability.\n- Partnered with UX designers to enhance customer checkout flow, resulting in 15% increase in conversions.\n- Automated deployment scripts with Jenkins, cutting manual release steps by 70%.",
+      "description": "- Built front-end features with React and integrated REST APIs for an e-commerce platform serving 50k+ users.\r\n- Wrote unit and integration tests, increasing code coverage from 60% to 85%.\r\n- Supported migration of legacy PHP application to Node.js, improving maintainability.\r\n- Partnered with UX designers to enhance customer checkout flow, resulting in 15% increase in conversions.\r\n- Automated deployment scripts with Jenkins, cutting manual release steps by 70%.",
       "logoUrl": null,
       "order_index": 1,
       "custom_links": [],
@@ -83,7 +83,7 @@ const userData = {
       "id": "a655ea48-400c-4a09-81d0-c0151f9b50fe",
       "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
       "name": "Portfolio Builder Web App",
-      "description": "- Developed a customizable portfolio generator using Next.js and Supabase.\n- Implemented user authentication, template themes, and image upload features.\n- Deployed application on Vercel with continuous integration.",
+      "description": "- Developed a customizable portfolio generator using Next.js and Supabase.\r\n- Implemented user authentication, template themes, and image upload features.\r\n- Deployed application on Vercel with continuous integration.",
       "picUrl": null,
       "order_index": 0,
       "technology_names": [
@@ -105,7 +105,7 @@ const userData = {
       "id": "9d58c707-1f68-4911-96a7-ddf6476d5795",
       "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
       "name": "Movie Recommendation System",
-      "description": "- Built a Python-based ML model using scikit-learn to recommend movies with 82% accuracy.\n- Deployed the model as a Flask API and integrated it into a React front end.\n- Conducted A/B testing with 200+ users, improving recommendation relevance by 18%.",
+      "description": "- Built a Python-based ML model using scikit-learn to recommend movies with 82% accuracy.\r\n- Deployed the model as a Flask API and integrated it into a React front end.\r\n- Conducted A/B testing with 200+ users, improving recommendation relevance by 18%.",
       "picUrl": null,
       "order_index": 1,
       "technology_names": [
@@ -129,7 +129,7 @@ const userData = {
       "id": "ed4ab969-5097-4626-9687-7aaf7dc9e6eb",
       "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
       "name": "Task Manager Mobile App",
-      "description": "- Created a cross-platform mobile app using React Native for task tracking.\n- Integrated push notifications and offline storage using SQLite.\n- Achieved 1,000+ downloads with positive feedback on UI/UX.",
+      "description": "- Created a cross-platform mobile app using React Native for task tracking.\r\n- Integrated push notifications and offline storage using SQLite.\r\n- Achieved 1,000+ downloads with positive feedback on UI/UX.",
       "picUrl": null,
       "order_index": 2,
       "technology_names": [
@@ -512,19 +512,25 @@ const userData = {
     }
   ],
   "customSections": [],
-  "sectionOrder": null
+  "sectionOrder": [
+    "personal",
+    "experience",
+    "education",
+    "projects",
+    "skills"
+  ]
 }
 
 // Component layout preferences
 const portfolioConfig = {
-  "user_info_layout_type": "userInfo1",
+  "user_info_layout_type": "userInfo4",
   "projects_layout_type": "projects1",
   "skills_layout_type": "skills1",
   "education_layout_type": "card",
   "work_layout_type": "card",
-  "github_repo_name": "p67",
+  "github_repo_name": "p332",
   "github_username": "Greg057",
-  "github_repo_url": "https://github.com/Greg057/p67"
+  "github_repo_url": "https://github.com/Greg057/p332"
 }
 
 export default function Portfolio() {
