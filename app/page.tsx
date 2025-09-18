@@ -30,7 +30,55 @@ const userData = {
         "title": "GitHub"
       }
     ],
-    "published_data": null
+    "published_data": {
+      "cvUrl": "https://ugsufdqwqaiqbawfsxwp.supabase.co/storage/v1/object/public/user-files/2547cc8f-d92f-4bf6-b05b-e06fce348363/cv.pdf",
+      "email": "jane.doe@email.com",
+      "title": "Software Engineer",
+      "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+      "about_me": "Software Engineer at TechWave Solutions specializing in scalable web applications, cloud platforms, and Agile methodologies. Passionate about building user-friendly solutions and continuously learning emerging technologies such as artificial intelligence, machine learning, and cloud-native applications. Experienced in Java, Python, JavaScript, and cloud DevOps tools.",
+      "location": "San Francisco, CA",
+      "avatarUrl": null,
+      "full_name": "dwqdwdwJane Doe",
+      "custom_links": [
+        {
+          "id": "1",
+          "url": "https://linkedin.com/in/janedoe",
+          "icon": "linkedin",
+          "title": "LinkedIn"
+        },
+        {
+          "id": "2",
+          "url": "https://github.com/janedoe",
+          "icon": "github",
+          "title": "GitHub"
+        }
+      ],
+      "published_data": {
+        "cvUrl": "https://ugsufdqwqaiqbawfsxwp.supabase.co/storage/v1/object/public/user-files/2547cc8f-d92f-4bf6-b05b-e06fce348363/cv.pdf",
+        "email": "jane.doe@email.com",
+        "title": "Software Engineer",
+        "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+        "about_me": "Software Engineer at TechWave Solutions specializing in scalable web applications, cloud platforms, and Agile methodologies. Passionate about building user-friendly solutions and continuously learning emerging technologies such as artificial intelligence, machine learning, and cloud-native applications. Experienced in Java, Python, JavaScript, and cloud DevOps tools.",
+        "location": "San Francisco, CA",
+        "avatarUrl": null,
+        "full_name": "dwqdwdwJane Doe",
+        "custom_links": [
+          {
+            "id": "1",
+            "url": "https://linkedin.com/in/janedoe",
+            "icon": "linkedin",
+            "title": "LinkedIn"
+          },
+          {
+            "id": "2",
+            "url": "https://github.com/janedoe",
+            "icon": "github",
+            "title": "GitHub"
+          }
+        ],
+        "published_data": null
+      }
+    }
   },
   "educations": [
     {
@@ -45,7 +93,33 @@ const userData = {
       "order_index": 0,
       "custom_links": [],
       "location": "Berkeley, CA",
-      "published_data": null
+      "published_data": {
+        "id": "a19b5c5f-29c8-48be-924d-eb2ae282ad78",
+        "degree": "Bachelor of Computer Science",
+        "logoUrl": null,
+        "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+        "end_year": "2019",
+        "location": "Berkeley, CA",
+        "start_year": "2015",
+        "university": "University of California, Berkeley",
+        "description": "Relevant Coursework:\r\nData Structures, Algorithms, Operating Systems, Databases, Machine Learning, Software Engineering.",
+        "order_index": 0,
+        "custom_links": [],
+        "published_data": {
+          "id": "a19b5c5f-29c8-48be-924d-eb2ae282ad78",
+          "degree": "Bachelor of Computer Science",
+          "logoUrl": null,
+          "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+          "end_year": "2019",
+          "location": "Berkeley, CA",
+          "start_year": "2015",
+          "university": "University of California, Berkeley",
+          "description": "Relevant Coursework:\r\nData Structures, Algorithms, Operating Systems, Databases, Machine Learning, Software Engineering.",
+          "order_index": 0,
+          "custom_links": [],
+          "published_data": null
+        }
+      }
     }
   ],
   "experiences": [
@@ -61,7 +135,33 @@ const userData = {
       "order_index": 0,
       "custom_links": [],
       "location": "San Francisco, CA",
-      "published_data": null
+      "published_data": {
+        "id": "0ea98c97-f983-4815-87ed-c5a1d349dc08",
+        "company": "TechWave Solutions",
+        "logoUrl": null,
+        "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+        "end_date": "Present",
+        "location": "San Francisco, CA",
+        "position": "Software Engineer",
+        "start_date": "Jan 2021",
+        "description": "- Designed and developed scalable microservices in Java and Node.js, reducing system downtime by 30%.\r\n- Implemented CI/CD pipelines with GitHub Actions and Docker, improving deployment speed by 40%.\r\n- Optimized database queries in PostgreSQL, cutting average response time by 25%.\r\n- Collaborated with a team of 8 engineers using Agile, consistently delivering features within sprint deadlines.\r\n- Mentored junior developers, leading to faster onboarding and reduced code review issues.",
+        "order_index": 0,
+        "custom_links": [],
+        "published_data": {
+          "id": "0ea98c97-f983-4815-87ed-c5a1d349dc08",
+          "company": "TechWave Solutions",
+          "logoUrl": null,
+          "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+          "end_date": "Present",
+          "location": "San Francisco, CA",
+          "position": "Software Engineer",
+          "start_date": "Jan 2021",
+          "description": "- Designed and developed scalable microservices in Java and Node.js, reducing system downtime by 30%.\r\n- Implemented CI/CD pipelines with GitHub Actions and Docker, improving deployment speed by 40%.\r\n- Optimized database queries in PostgreSQL, cutting average response time by 25%.\r\n- Collaborated with a team of 8 engineers using Agile, consistently delivering features within sprint deadlines.\r\n- Mentored junior developers, leading to faster onboarding and reduced code review issues.",
+          "order_index": 0,
+          "custom_links": [],
+          "published_data": null
+        }
+      }
     },
     {
       "id": "54181fa6-67b8-4ba3-a941-0b58f5bf419e",
@@ -75,7 +175,33 @@ const userData = {
       "order_index": 1,
       "custom_links": [],
       "location": "San Jose, CA",
-      "published_data": null
+      "published_data": {
+        "id": "54181fa6-67b8-4ba3-a941-0b58f5bf419e",
+        "company": "BrightApps Inc.",
+        "logoUrl": null,
+        "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+        "end_date": "Dec 2020",
+        "location": "San Jose, CA",
+        "position": "Junior Software Engineer",
+        "start_date": "Jun 2019",
+        "description": "- Built front-end features with React and integrated REST APIs for an e-commerce platform serving 50k+ users.\r\n- Wrote unit and integration tests, increasing code coverage from 60% to 85%.\r\n- Supported migration of legacy PHP application to Node.js, improving maintainability.\r\n- Partnered with UX designers to enhance customer checkout flow, resulting in 15% increase in conversions.\r\n- Automated deployment scripts with Jenkins, cutting manual release steps by 70%.",
+        "order_index": 1,
+        "custom_links": [],
+        "published_data": {
+          "id": "54181fa6-67b8-4ba3-a941-0b58f5bf419e",
+          "company": "BrightApps Inc.",
+          "logoUrl": null,
+          "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+          "end_date": "Dec 2020",
+          "location": "San Jose, CA",
+          "position": "Junior Software Engineer",
+          "start_date": "Jun 2019",
+          "description": "- Built front-end features with React and integrated REST APIs for an e-commerce platform serving 50k+ users.\r\n- Wrote unit and integration tests, increasing code coverage from 60% to 85%.\r\n- Supported migration of legacy PHP application to Node.js, improving maintainability.\r\n- Partnered with UX designers to enhance customer checkout flow, resulting in 15% increase in conversions.\r\n- Automated deployment scripts with Jenkins, cutting manual release steps by 70%.",
+          "order_index": 1,
+          "custom_links": [],
+          "published_data": null
+        }
+      }
     }
   ],
   "projects": [
@@ -93,7 +219,37 @@ const userData = {
       ],
       "technology_details": [],
       "custom_links": [],
-      "published_data": null,
+      "published_data": {
+        "id": "a655ea48-400c-4a09-81d0-c0151f9b50fe",
+        "name": "Portfolio Builder Web App",
+        "picUrl": null,
+        "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+        "description": "- Developed a customizable portfolio generator using Next.js and Supabase.\r\n- Implemented user authentication, template themes, and image upload features.\r\n- Deployed application on Vercel with continuous integration.",
+        "order_index": 0,
+        "custom_links": [],
+        "published_data": {
+          "id": "a655ea48-400c-4a09-81d0-c0151f9b50fe",
+          "name": "Portfolio Builder Web App",
+          "picUrl": null,
+          "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+          "description": "- Developed a customizable portfolio generator using Next.js and Supabase.\r\n- Implemented user authentication, template themes, and image upload features.\r\n- Deployed application on Vercel with continuous integration.",
+          "order_index": 0,
+          "custom_links": [],
+          "published_data": null,
+          "technology_names": [
+            "Next.js",
+            "Supabase",
+            "Vercel"
+          ],
+          "technology_details": []
+        },
+        "technology_names": [
+          "Next.js",
+          "Supabase",
+          "Vercel"
+        ],
+        "technology_details": []
+      },
       "technologyNames": [
         "Next.js",
         "Supabase",
@@ -116,7 +272,39 @@ const userData = {
       ],
       "technology_details": [],
       "custom_links": [],
-      "published_data": null,
+      "published_data": {
+        "id": "9d58c707-1f68-4911-96a7-ddf6476d5795",
+        "name": "Movie Recommendation System",
+        "picUrl": null,
+        "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+        "description": "- Built a Python-based ML model using scikit-learn to recommend movies with 82% accuracy.\r\n- Deployed the model as a Flask API and integrated it into a React front end.\r\n- Conducted A/B testing with 200+ users, improving recommendation relevance by 18%.",
+        "order_index": 1,
+        "custom_links": [],
+        "published_data": {
+          "id": "9d58c707-1f68-4911-96a7-ddf6476d5795",
+          "name": "Movie Recommendation System",
+          "picUrl": null,
+          "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+          "description": "- Built a Python-based ML model using scikit-learn to recommend movies with 82% accuracy.\r\n- Deployed the model as a Flask API and integrated it into a React front end.\r\n- Conducted A/B testing with 200+ users, improving recommendation relevance by 18%.",
+          "order_index": 1,
+          "custom_links": [],
+          "published_data": null,
+          "technology_names": [
+            "Python",
+            "scikit-learn",
+            "Flask",
+            "React"
+          ],
+          "technology_details": []
+        },
+        "technology_names": [
+          "Python",
+          "scikit-learn",
+          "Flask",
+          "React"
+        ],
+        "technology_details": []
+      },
       "technologyNames": [
         "Python",
         "scikit-learn",
@@ -138,7 +326,35 @@ const userData = {
       ],
       "technology_details": [],
       "custom_links": [],
-      "published_data": null,
+      "published_data": {
+        "id": "ed4ab969-5097-4626-9687-7aaf7dc9e6eb",
+        "name": "Task Manager Mobile App",
+        "picUrl": null,
+        "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+        "description": "- Created a cross-platform mobile app using React Native for task tracking.\r\n- Integrated push notifications and offline storage using SQLite.\r\n- Achieved 1,000+ downloads with positive feedback on UI/UX.",
+        "order_index": 2,
+        "custom_links": [],
+        "published_data": {
+          "id": "ed4ab969-5097-4626-9687-7aaf7dc9e6eb",
+          "name": "Task Manager Mobile App",
+          "picUrl": null,
+          "user_id": "2547cc8f-d92f-4bf6-b05b-e06fce348363",
+          "description": "- Created a cross-platform mobile app using React Native for task tracking.\r\n- Integrated push notifications and offline storage using SQLite.\r\n- Achieved 1,000+ downloads with positive feedback on UI/UX.",
+          "order_index": 2,
+          "custom_links": [],
+          "published_data": null,
+          "technology_names": [
+            "React Native",
+            "SQLite"
+          ],
+          "technology_details": []
+        },
+        "technology_names": [
+          "React Native",
+          "SQLite"
+        ],
+        "technology_details": []
+      },
       "technologyNames": [
         "React Native",
         "SQLite"
