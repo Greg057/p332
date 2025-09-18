@@ -1,4 +1,4 @@
-# dwqdwdwJane Doe's Portfolio
+# dwqdwqd's Portfolio
 
 Software Engineer portfolio built with Next.js and deployed on GitHub Pages.
 
